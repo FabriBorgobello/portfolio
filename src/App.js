@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { NavBar } from "./components/header/NavBar";
 import { Header } from "./components/header/Header";
 import { Break } from "./components/header/Break";
 import { About } from "./components/sections/About";
@@ -10,9 +11,11 @@ import { Social } from "./components/sections/Social";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/footer/Footer";
 
+
 function App() {
   return (
     <div>
+      <NavBar />
       <Header />
       <Break />
       <About />
