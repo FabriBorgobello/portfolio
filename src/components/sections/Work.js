@@ -1,5 +1,10 @@
 import React from "react";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import "./Work.css";
+import { WorkCard } from "./WorkCard";
+import photoGoogle from "../../img/google.png";
+import photoFacebook from "../../img/facebook.png";
+import photoAmazon from "../../img/amazon.png";
 
 export const Work = () => {
   return (
@@ -8,43 +13,25 @@ export const Work = () => {
       <div className="work-showcase">
         <Row>
           <Col xs={12} md={4}>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
+            <WorkCard
+              projectName="Google"
+              projectInfo="Web browser built with C++"
+              photo={photoGoogle}
+            />
           </Col>
           <Col xs={12} md={4}>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
+            <WorkCard
+              projectName="Facebook"
+              projectInfo="Social Network built with React"
+              photo={photoFacebook}
+            />
           </Col>
           <Col xs={12} md={4}>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
+            <WorkCard
+              projectName="Amazon"
+              projectInfo="E-Commerce built with React and Node."
+              photo={photoAmazon}
+            />
           </Col>
         </Row>
       </div>

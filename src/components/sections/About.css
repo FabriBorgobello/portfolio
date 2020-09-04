@@ -1,0 +1,16 @@
+/* Container 80% en MD y LG*/
+@media (min-width: 768px) {
+  #about {
+    width: 80% !important;
+  }
+}
+#about {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.aboutPhoto {
+  width: 100%;
+}
+.aboutContainerRight {
+  font-family: "Poppins", sans-serif;
+}

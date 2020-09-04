@@ -1,0 +1,78 @@
+#skill .face {
+  transition: 0.5s;
+  transform: translateY(15px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+@media (max-width: 767px) {
+  #skill .face {
+    height: 18vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+}
+
+@media (min-width: 768px) {
+  #skill .face {
+    width: 100%;
+    height: 15vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+}
+
+#skill .face:hover {
+  transform: translateY(0px);
+}
+
+#skill .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.7s;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+#skill .icon {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.7s;
+  color: #fff;
+}
+#skill .text {
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  font-size: 150%;
+  transition: 0.7s;
+  color: #fff;
+}
+
+@media (max-width: 500px){
+  #skill .icon {
+    top: 40%;
+    left: 50%;
+  }
+  #skill .text {
+    top: 80%;
+    left: 50%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1300px){
+  #skill .icon {
+    top: 40%;
+    left: 50%;
+  }
+  #skill .text {
+    top: 85%;
+    left: 50%;
+  }
+}

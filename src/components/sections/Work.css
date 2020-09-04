@@ -1,0 +1,10 @@
+#work {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+@media (min-width: 768px) {
+  #work {
+    width: 80% !important;
+  }
+}

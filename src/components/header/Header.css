@@ -1,0 +1,99 @@
+#header {
+  background-color: #3d405b;
+  margin-bottom: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#headerContainerLeft {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#greeting {
+  font-family: "Poppins", sans-serif;
+  color: #f78464;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 1pt;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#headerContainerRight {
+  text-align: center;
+  display: block;
+}
+
+.headerPhoto {
+  width: 100%;
+  max-height: 100%;
+}
+@media /* Container 80% en MD y LG*/ @media (min-width: 768px) {
+  #header {
+    width: 80% !important;
+  }
+}
+
+/* LG */
+@media (min-width: 992px) {
+  #headerContainerLeft {
+    z-index: 1;
+    position: relative;
+    top: 25%;
+    left: 15%;
+    height: 35vh;
+  }
+  #headerContainerRight {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 70vh;
+  }
+}
+/* CTA */
+
+.CTA {
+  width: 30vh;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+div.CTA {
+  -webkit-transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
+  transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
+  text-align: center;
+  font-weight: 900;
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #e07a5f;
+  font-size: 1.5rem;
+}
+div.CTA:hover,
+div.CTA:focus,
+div.CTA:active {
+  letter-spacing: 0.2rem;
+}
+.CTA a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@supports (display: grid) {
+  #buttonContainer {
+    grid-area: main;
+    align-self: center;
+    justify-self: center;
+  }
+}

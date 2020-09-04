@@ -1,0 +1,30 @@
+#skill {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+@media (max-width: 768px) {
+  .skillShowcase {
+  }
+}
+
+@media (min-width: 768px) {
+  #skill {
+    width: 80% !important;
+  }
+  .skillShowcase {
+    height: 60vh;
+  }
+}
+
+.skillPhoto {
+  width: 100%;
+}
+.skillContainer {
+  font-family: "Poppins", sans-serif;
+}
+
+.skillShowcase {
+  padding-bottom: 5%;
+  width: 100%;
+}

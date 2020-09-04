@@ -1,93 +1,50 @@
 import React from "react";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import foto from "../../img/542-500x500.jpg";
+import { Container, Row, Col } from "react-bootstrap";
+import { SkillCard } from "./SkillCard";
+import "./Skill.css";
+import foto from "../../img/illustration2.svg";
 
 export const Skill = () => {
   return (
-    <Container className="skill">
-      <Container fluid>
-        <Row>
-          <Col xs={12} lg={6}>
-            <div className="skillContainerLeft">
-              <h1>Skills & Services</h1>
-              <p>
-                I specialize in HTML, CSS and JavaScript on the frontend, but
-                I'm pretty comfortable with Wordpress as well!
-              </p>
-              <div className="skill-showcase">
-                <Row>
-                  <Col xs={12} md={6}>
-                    <Card style={{ width: "18rem" }}>
-                      <Card.Img variant="top" src="holder.js/100px180" />
-                      <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                      </Card.Body>
-                    </Card>
-                  </Col>
-                  <Col xs={12} md={6}>
-                    <Card style={{ width: "18rem" }}>
-                      <Card.Img variant="top" src="holder.js/100px180" />
-                      <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                      </Card.Body>
-                    </Card>
-                  </Col>
-                  <Col xs={12} md={6}>
-                    <Card style={{ width: "18rem" }}>
-                      <Card.Img variant="top" src="holder.js/100px180" />
-                      <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                      </Card.Body>
-                    </Card>
-                  </Col>
-                  <Col xs={12} md={6}>
-                    <Card style={{ width: "18rem" }}>
-                      <Card.Img variant="top" src="holder.js/100px180" />
-                      <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                      </Card.Body>
-                    </Card>
-                  </Col>
-                </Row>
-              </div>
-            </div>
-          </Col>
-          <Col xs={12} lg={6}>
-            <div className="skillContainerRight">
-              <img className="skillFoto" src={foto} alt="skillFoto" />
-            </div>
-          </Col>
-        </Row>
-      </Container>
+    <Container id="skill">
+      <div className="skillContainer">
+        <h1>Skills & Services</h1>
+        <p>
+          I specialize in HTML, CSS and JavaScript on the frontend, but I'm
+          pretty comfortable with Wordpress as well!
+        </p>
+      </div>
+      <Row>
+        <Col xs={12} lg={6}>
+          <div className="skillContainerLeft">
+            <img className="skillPhoto" src={foto} alt="skillPhoto" />
+          </div>
+        </Col>
+        <Col xs={12} lg={6}>
+          <div className="skillShowcase">
+            <Row>
+              <Col xs={6} md={6}>
+                <SkillCard icon="fab fa-html5" text="HTML" color="F17E48" />
+              </Col>
+              <Col xs={6} md={6}>
+                <SkillCard icon="fab fa-css3-alt" text="CSS" color="4878F1" />
+              </Col>
+              <Col xs={6} md={6}>
+                <SkillCard icon="fab fa-js" text="JavaScript" color="E4F148" />
+              </Col>
+              <Col xs={6} md={6}>
+                <SkillCard icon="fab fa-bootstrap" text="Bootstrap" color="9348F1" />
+              </Col>
+              <Col xs={6} md={6}>
+                <SkillCard icon="fab fa-react" text="ReactJs" color="48B4F1" />
+              </Col>
+              <Col xs={6} md={6}>
+                <SkillCard icon="fab fa-figma" text="Figma" color="F15248" />
+              </Col>
+            </Row>
+          </div>
+        </Col>
+      </Row>
     </Container>
   );
 };
-
-//Card
-{
-  /* <div className="skill-item">
-  <svg></svg>
-  <h3>Web Design & Development</h3>
-  <p>HTML, CSS, JavaScript? You name it. I got it covered!</p>
-</div>; */
-}

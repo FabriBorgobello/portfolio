@@ -1,0 +1,40 @@
+#main {
+  background-color: #3d405b !important;
+}
+button.collapsed {
+  border: 0px;
+}
+
+#logo {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+.textLogo {
+  font-size: 1.3rem;
+  color: #e07a5f;
+  font-weight: 700;
+  letter-spacing: 2pt;
+  word-spacing: 3pt;
+}
+
+.navText {
+  font-size: 1.2rem;
+}
+
+.navText {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  #navContent {
+    width: 80%;
+  }
+}
+
+#optionContact {
+  color: #3d405b;
+  background-color: #e07a5f;
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+}

@@ -11,17 +11,15 @@ import { Social } from "./components/sections/Social";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/footer/Footer";
 
-
 function App() {
   return (
-    <div>
+    <div id="app">
       <NavBar />
       <Header />
-      <Break />
       <About />
       <Skill />
       <Work />
-      <Social />
+      <Social />¡
       <Contact />
       <Footer />
     </div>

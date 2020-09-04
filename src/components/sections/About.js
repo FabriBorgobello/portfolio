@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import foto from "../../img/542-500x500.jpg";
+import foto from "../../img/myPhoto.png";
+import "./About.css";
 
 export const About = () => {
   return (
@@ -8,7 +9,7 @@ export const About = () => {
       <Row>
         <Col xs={12} lg={6}>
           <div className="aboutContainerLeft">
-            <img className="aboutFoto" src={foto} alt="aboutFoto" />
+            <img className="aboutPhoto" src={foto} alt="aboutPhoto" />
           </div>
         </Col>
         <Col xs={12} lg={6}>
