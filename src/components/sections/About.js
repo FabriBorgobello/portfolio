@@ -16,14 +16,12 @@ export const About = () => {
           <div className="aboutContainerRight">
             <h1>About Me</h1>
             <p>
-              I am a web developer and designer. My passion is to create
-              beautiful experiences. I spend my time experimenting and
-              researching the latest technology. I pledge to be a lifelong
-              learner; it empowers me to create magnificent products. I started
-              learning HTML as a hobbyist, after witnessing its tremendous
-              capabilities, I was blown away by its potential! Soon, I started
-              learning JavaScript, A language with no limitations. Now I hope to
-              design masterpieces using the skills I've learned.
+              I am a junior front-end web developer form Argentina and love spending my time
+              experimenting and learning new technologies. I started studying
+              web development in 2019 as a hobby. Right now, I want to become a
+              great JavaScript developer, so I already started working with
+              React Js and soon I'll start with Node too! My main goal is to
+              create beautiful products and experiences.
             </p>
           </div>
         </Col>

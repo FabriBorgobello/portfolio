@@ -10,8 +10,7 @@ export const Skill = () => {
       <div className="skillContainer">
         <h1>Skills & Services</h1>
         <p>
-          I specialize in HTML, CSS and JavaScript on the frontend, but I'm
-          pretty comfortable with Wordpress as well!
+          I specialize in HTML, CSS and JavaScript on the frontend. I'm also pretty confortable working with Figma and other design tools!
         </p>
       </div>
       <Row>
