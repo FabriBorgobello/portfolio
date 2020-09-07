@@ -11,27 +11,30 @@ export const Contact = () => {
           <div className="contactContainerLeft">
             <h1>Contact Me</h1>
             <Form>
-              <Form.Group controlId="forName">
+              <Form.Group>
                 <Form.Label>Name</Form.Label>
                 <Form.Control
                   className="mb-2 mr-sm-2"
                   id="forName"
                   placeholder="Name"
+                  type="text"
+                  required
                 />
               </Form.Group>
-              <Form.Group controlId="formBasicEmail">
+              <Form.Group>
                 <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Email" />
+                <Form.Control type="email" placeholder="Email" required />
               </Form.Group>
-              <Form.Group controlId="exampleForm.ControlTextarea1">
+              <Form.Group>
                 <Form.Label>Message</Form.Label>
                 <Form.Control
                   as="textarea"
                   rows="3"
                   placeholder="Leave your message"
+                  required
                 />
               </Form.Group>
-              <br/>
+              <br />
               <Button variant="danger" type="submit" size="lg" block>
                 Send Message
               </Button>

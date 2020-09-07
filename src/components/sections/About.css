@@ -14,3 +14,13 @@
 .aboutContainerRight {
   font-family: "Poppins", sans-serif;
 }
+
+@media (max-width: 768px) {
+  #about {
+    margin-top: 3vh !important;
+    margin-bottom: 2vh !important;
+  }
+  .aboutPhoto {
+    margin-bottom: 1.5vh;
+  }
+}

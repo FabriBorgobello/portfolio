@@ -12,16 +12,36 @@ export const Social = () => {
       <div className="socialShowcase">
         <Row>
           <Col xs={12} md={3}>
-            <SocialCard icon="fab fa-linkedin" color="688AE0"/>
+            <a
+              href="https://www.linkedin.com/in/fabricio-borgobello-59468775/"
+              target="_blank"
+            >
+              <SocialCard icon="fab fa-linkedin" color="688AE0" />
+            </a>
           </Col>
           <Col xs={12} md={3}>
-            <SocialCard icon="fab fa-github-square" color="68E0BC"/>
+            <a
+              href="https://github.com/FabriBorgobello"
+              target="_blank"
+            >
+              <SocialCard icon="fab fa-github-square" color="68E0BC" />
+            </a>
           </Col>
           <Col xs={12} md={3}>
-            <SocialCard icon="fab fa-twitter-square" color="68D9E0"/>
+            <a
+              href="https://twitter.com/fabriborgobello"
+              target="_blank"
+            >
+              <SocialCard icon="fab fa-twitter-square" color="68D9E0" />
+            </a>
           </Col>
           <Col xs={12} md={3}>
-          <SocialCard icon="fab fa-instagram-square" color="E068CC"/>
+            <a
+              href="https://www.instagram.com/fabriborgobello/"
+              target="_blank"
+            >
+              <SocialCard icon="fab fa-instagram-square" color="E068CC" />
+            </a>
           </Col>
         </Row>
       </div>

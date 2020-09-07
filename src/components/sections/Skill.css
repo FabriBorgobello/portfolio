@@ -4,7 +4,9 @@
 }
 
 @media (max-width: 768px) {
-  .skillShowcase {
+  #skill {
+    margin-top: 3vh !important;
+    margin-bottom: 2vh !important;
   }
 }
 

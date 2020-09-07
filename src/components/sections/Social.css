@@ -7,6 +7,10 @@
   .socialShowcase {
     height: 80vh;
   }
+  #social {
+    margin-top: 3vh !important;
+    margin-bottom: 2vh !important;
+  }
 }
 
 @media (min-width: 768px) {

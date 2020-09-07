@@ -12,12 +12,6 @@ export const NavBar = () => {
             className="nav-link d-flex justify-content-center"
             href="#home"
           >
-            {/* <img
-              id="logo"
-              src={foto}
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
-            /> */}
             <span className="textLogo">FABRICIO BORGO</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -40,7 +34,9 @@ export const NavBar = () => {
               </li>
               <li>
                 <Nav.Link className="navLink" eventKey={4} href="#contact">
-                  <span className="navText" id="optionContact">Contact</span>
+                  <span className="navText" id="optionContact">
+                    Contact
+                  </span>
                 </Nav.Link>
               </li>
             </Nav>
@@ -51,19 +47,3 @@ export const NavBar = () => {
   );
 };
 
-{
-  /* <nav>
-          <div className="navContainer">
-            <a className="logo" href="logo.com">
-              <img src="" alt="" />
-            </a>
-            <ul>
-              <li className="navElement"><a className="navLink" href="google.com"><span>Home</span></a></li>
-              <li className="navElement"><a className="navLink" href="google.com"><span>About</span></a></li>
-              <li className="navElement"><a className="navLink" href="google.com"><span>Work</span></a></li>
-              <li className="navElement"><a className="navLink" href="google.com"><span>Contact</span></a></li>
-            </ul>
-            <div className="hamburguer"></div>
-          </div>
-        </nav> */
-}

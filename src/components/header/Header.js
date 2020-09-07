@@ -14,7 +14,7 @@ export const Header = () => {
               Let's talk!
             </span>
             <div id="buttonContainer">
-              <div class="CTA">
+              <div className="CTA">
                 <a href="#contact">CONTACT ME</a>
               </div>
             </div>

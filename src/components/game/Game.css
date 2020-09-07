@@ -1,16 +1,16 @@
-#work {
+#game {
   padding-top: 2%;
   padding-bottom: 2%;
 }
-
 @media (min-width: 768px) {
-  #work {
+  #game {
     width: 80% !important;
   }
 }
 @media (max-width: 768px) {
-  #work {
+  #game {
     margin-top: 3vh !important;
-    margin-bottom: 2vh !important;
+    margin-bottom: 1vh !important;
+
   }
 }

@@ -8,3 +8,10 @@
 .contactContainerRight img {
     margin-top:1rem;
 }
+@media (max-width: 768px) {
+  #contact {
+    margin-top: 3vh !important;
+    margin-bottom: 2vh !important;
+
+  }
+}
